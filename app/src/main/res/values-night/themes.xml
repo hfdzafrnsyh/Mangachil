@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Mangapid" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_maroon</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/red_maroon</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red_maroon</item>
+        <item name="colorSecondaryVariant">@color/red_maroon</item>
+        <item name="colorOnSecondary">@color/red_maroon</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.AppBarOverLay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+</resources>

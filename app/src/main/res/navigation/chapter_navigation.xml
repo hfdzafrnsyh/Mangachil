@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_info"
+    android:id="@+id/chapter_navigation">
+
+
+    <fragment
+        android:id="@+id/fragment_info"
+        android:name="com.hfdzafrnsyh.mangapid.ui.detail.InfoFragment"
+        tools:layout="@layout/fragment_info" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_chapter_read"
+        android:name="com.hfdzafrnsyh.mangapid.ui.detail.chapterRead.ChapterReadFragment"
+        tools:layout="@layout/fragment_chapter_read" >
+    </fragment>
+
+
+</navigation>
